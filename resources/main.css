@@ -1,0 +1,142 @@
+p{
+   /* font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;  */
+}
+body{
+	background-image: linear-gradient( rgba(0, 68, 255, 0.5)25%, rgba(135, 206, 235, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),url(stars-background.jpg); ;
+	/* background-image: url(stars-background.jpg); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* background: #eb01a5; */
+	/* background-image: url("stars-background.jpg"); */
+	/* background-image: url("stars-background.jpg"), linear-gradient(#eb01a5, #d13531); */
+}
+
+.tinted-image {
+	/* background-image: linear-gradient(to bottom,rgba(255,0,0,0.5),rgba(255,0,0,0), transparent)   */
+  }
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center ;
+	align-items: center;
+	
+}
+.profile_box{
+	box-sizing: border-box;
+	width: 270px;
+	height: 420px;
+	background-color: #242F39;
+	margin-top: 150px;
+	border-radius: 3%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+img{
+	/* content: url(luke-square.jpg); */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	margin-top: 30px;
+	flex-basis: 1;
+	border: white solid 3px;
+}
+.msgCounter{
+	color: white;
+	border: 3px solid #242F39;
+	border-radius: 50%;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 110px;
+	right: 75px;
+	background-color: red;
+	padding:5px;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.name{
+	position: absolute;
+	color: aliceblue;
+	flex-basis: 100%;
+	top: 145px;
+	font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.rank{
+	position: absolute;
+	color: rgb(134, 172, 222);
+	flex-basis: 100%;
+	font-size: 100%;
+	top: 175px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.quote{
+	position: absolute;
+	color: rgb(217, 225, 236);
+	flex-basis: 100%;
+	font-size: 100%;
+	top: 210px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 70%;	
+}
+.ActivityPanel{
+	display: flex;
+	position: absolute;
+	bottom: 90px;
+	width: 270px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Followers{
+	display: flex;
+	flex-wrap: wrap;
+	color: aliceblue;
+	background-color: #0F8BD9;
+	flex: 1;
+	
+}
+.Following{
+	background-color: #0E7EC5;
+	display: flex;
+	flex-wrap: wrap;
+	color: aliceblue;
+	flex: 1;
+	
+}
+.number{
+	flex-basis: 100%;
+	font-size: 110%;
+}
+.text{
+	flex-basis: 100%;
+	margin-top: -10px;
+}
+.follow_me{
+	position: absolute;
+	bottom: 25px;
+}
+.follow_btn{
+	border: white 2px solid;
+	width: 120px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+
+}
+.btn_text{
+	color: aliceblue;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	margin-top: 10%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
